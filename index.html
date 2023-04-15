@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Breweries by City</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Breweries by City</h1>
+      <form>
+        <div class="form-group">
+          <label for="cityInput">Enter a City Name:</label>
+          <input type="text" class="form-control" id="cityInput" placeholder="Enter a city name">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div class="row">
+        <div id="searchhistorydiv" class="col-sm-2">
+    </div>
+    <div class="row">
+        <div id="cityList" class="col-sm-4">
+
+    </div>
+      <div class="table-responsive  ">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Type</th>
+              <th>Address</th>
+              <th>Phone</th>
+              <th>Website</th>
+            </tr>
+          </thead>
+          <tbody id="breweryTableBody">
+          </tbody>
+        </table>
+        
+      </div>
+    </div>
+    <script src="script.js">
+
+    </script>
+  </body>
+</html>
